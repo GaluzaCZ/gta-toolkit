@@ -91,7 +91,7 @@ namespace DirectXTex
 				DirectX::ScratchImage outputImage;
 
 				// compress image
-				DirectX::Compress(inputImage, (DXGI_FORMAT)format, 0, 0, outputImage);
+				DirectX::Compress(inputImage, (DXGI_FORMAT)format, 0, 0.5, outputImage);
 
 				size_t rowPitchOut;
 				size_t slicePitchOut;
